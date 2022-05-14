@@ -17,11 +17,14 @@
   letter-spacing: var(--text-prose-tracking);
   line-height: var(--loose);
   padding: var(--size-gutter) var(--size-gutter) calc(var(--size-gutter) * 2);
+  max-width: 48rem;
 }
 
+/*move to .article
 .body {
   max-width: 48rem;
 }
+*/
 
 .article h2:first-of-type {
   margin-top: 0;
@@ -84,7 +87,7 @@
 @media (min-width: 1024px) {
   .article {
     gap: var(--space-3xl);
-    margin: 0 var(--size-gutter) 0 auto;
+    margin: 0 auto;
     padding-left: 0;
     padding-right: 0;
     width: calc(85% - var(--size-gutter));
