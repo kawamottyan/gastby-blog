@@ -20,6 +20,9 @@ const Navigation = () => (
           Blog
         </Link>
       </li>
+      <li className={styles.navigationItem}>
+        <a target="_blank" href="https://www.kawamottyan.com/">Learn</a>
+      </li>
     </ul>
   </nav>
 )
